@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "Icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Keystone Timetable Popup"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "View your Keystone Timetable in Popup. Made by Coozywana",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxx3/HqTIbdbSbZLna9mRHDuN1ZUS+i2V+nAeyLwWjGT2pbcW46UhaG5aLhkYRRGWGcGnxZALXP25cXqOhrJIWUAeWIZcvlk3rih9XQ0KsSS/S8WUYh7UJa2CpfHrVI4iJK4nwjaodYhcWy74xLscicDwCdfOPzGNQYi61R7oH7ymrg1lfyxX9/P8kgaDS/MIEARzxRjVRp7d0FM/lao2+vsnMXoLqBL0tk4qxN6eHO1i7Z8rGSMBhBJWvXtMNIaYT5EtMqfUmehg48umEivEvZbdPiwDHtpQ4Hox8/DH/7evU4Wz1L+599gM0TL8CnNo1Wr07MWkKBseE4USh6zOewIDAQAB",
+   "manifest_version": 2,
+   "name": "Keystone Timetable Popup",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.2"
+}
